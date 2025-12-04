@@ -1,0 +1,68 @@
+NUMBER
+WORK
+PRODUTION
+DATE
+TIME
+SPARE
+RUNOUT(mm)
+R-HEIGHT(mm)
+L-HEIGHT(mm)
+ENERGY1(W)
+ENERGY2(W)
+ENERGY3(W)
+ENERGY4(W)
+WELDING TIME(sec)
+ROTATION(RPM)
+
+RUNOUT OK/NG
+R-HEIGHT OK/NG
+L-HEIGHT OK/NG
+WELDER OK/NG
+N2 OL/NG
+WORK OK/NG
+uWELDING NO RESPOND
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.

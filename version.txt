@@ -1,0 +1,22 @@
+--------------------------------------------------------------
+Data logging version 1.0
+for Housing solenoid welding M/C Line 1
+November26,2013
+Last update March14,2014
+by anuchit aree
+Denso(Thailand)
+--------------------------------------------------------------
+
+--------------------------------------------------------------
+Data logging version 1.5
+for Covfor Housing solenoid welding M/C  LINE 1 and LINE 2
+MAY19,2014
+By anuchit aree
+Denso(Thailand)
+Vesrion 1.5 can replace version 1.0 
+Changing Item
+ 1.display to vertical to hozrizental
+ 2.can see a history 20 data
+ 3. easily to check result,display will show a red color to work NG
+and green color to work OK.
+--------------------------------------------------------------

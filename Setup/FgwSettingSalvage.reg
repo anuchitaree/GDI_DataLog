@@ -1,0 +1,1113 @@
+REGEDIT4
+[HKEY_LOCAL_MACHINE\SOFTWARE\OMRON\FinsGateway\AccessMethod]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\OMRON\FinsGateway\AccessMethod\AmFinsRemote]
+"DllPath"=hex(2):\
+      46,67,77,41,6d,46,49,4e,53,2e,64,6c,6c,00
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\OMRON\FinsGateway\AccessMethod\AmShmem]
+"DllPath"=hex(2):\
+      46,67,77,41,6d,53,68,6d,65,6d,2e,64,6c,6c,00
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\OMRON\FinsGateway\CpuUnit]
+"AddOnService"=hex(2):\
+      25,46,69,6e,73,53,65,72,76,65,72,25,5c,62,69,6e,5c,43,70,75,45,6d,45,6e,68,\
+      2e,64,6c,6c,00
+"EventMessageFile"=hex(2):\
+      25,46,69,6e,73,53,65,72,76,65,72,25,5c,62,69,6e,5c,43,70,75,55,6e,69,74,2e,\
+      65,78,65,00
+"FinsLogFile"=hex(2):\
+      25,46,69,6e,73,53,65,72,76,65,72,25,5c,6c,6f,63,61,6c,5c,63,70,75,75,6e,69,\
+      74,2e,6c,6f,67,00
+"MaxLineOfFinsLog"=dword:000000c7
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\OMRON\FinsGateway\CpuUnit\Memory]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\OMRON\FinsGateway\DataAgent]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\OMRON\FinsGateway\DataAgent\MapAgent]
+"Resolution"=dword:00000064
+"AutoStart"=dword:00000000
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\OMRON\FinsGateway\DataAgent\MapAgent\DefaultImportFiles]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\OMRON\FinsGateway\DataAgent\MapAgent\DefaultImportFiles\DocomemoLink]
+"Import"=dword:00000000
+"ImportFile"=hex(2):\
+      25,46,69,6e,73,53,65,72,76,65,72,25,5c,6c,6f,63,61,6c,5c,44,6f,63,6f,6d,65,\
+      6d,6f,4c,69,6e,6b,2e,6d,61,70,00
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\OMRON\FinsGateway\EventMemory]
+"TotalNumberOfSharedMemories"=dword:00000080
+"TotalNumberOfEventPorts"=dword:00000100
+"TotalNumberOfEvents"=dword:00000100
+"TotalNumberOfLostEventLogs"=dword:00000100
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\OMRON\FinsGateway\EventMemory\AR]
+"AccessMethod"="AmShmem"
+"AddedInfoDataSize"=dword:00000004
+"AddedInfoHistNum"=dword:0000000a
+"AddedInfoTotalNum"=dword:00008000
+"EnableAccessEx"="FALSE"
+"EnableEventCondition"="TRUE"
+"NeedMapMemory"="TRUE"
+"PathOfAddedInfoFile"=hex(2):\
+      00
+"PathOfMappedFile"=hex(2):\
+      25,46,69,6e,73,53,65,72,76,65,72,25,5c,6c,6f,63,61,6c,5c,45,76,74,4d,65,6d,\
+      5c,41,52,00
+"TotalNumberOfNormalConditions"=dword:00000400
+"TotalNumberOfWideConditions"=dword:00000080
+"WordSizeOfMemory"=dword:00008000
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\OMRON\FinsGateway\EventMemory\CIO]
+"PathOfMappedFile"=hex(2):\
+      25,46,69,6e,73,53,65,72,76,65,72,25,5c,6c,6f,63,61,6c,5c,45,76,74,4d,65,6d,\
+      5c,43,49,4f,00
+"TotalNumberOfNormalConditions"=dword:00000400
+"TotalNumberOfWideConditions"=dword:00000400
+"WordSizeOfMemory"=dword:00008000
+"EnableEventCondition"="TRUE"
+"NeedMapMemory"="TRUE"
+"AccessMethod"="AmShmem"
+"EnableAccessEx"="FALSE"
+"AddedInfoTotalNum"=dword:00008000
+"AddedInfoHistNum"=dword:0000000a
+"AddedInfoDataSize"=dword:00000004
+"PathOfAddedInfoFile"=hex(2):\
+      00
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\OMRON\FinsGateway\EventMemory\DM]
+"PathOfMappedFile"=hex(2):\
+      25,46,69,6e,73,53,65,72,76,65,72,25,5c,6c,6f,63,61,6c,5c,45,76,74,4d,65,6d,\
+      5c,44,4d,00
+"TotalNumberOfNormalConditions"=dword:00000400
+"TotalNumberOfWideConditions"=dword:00000400
+"WordSizeOfMemory"=dword:00008000
+"EnableEventCondition"="TRUE"
+"NeedMapMemory"="TRUE"
+"AccessMethod"="AmShmem"
+"EnableAccessEx"="FALSE"
+"AddedInfoTotalNum"=dword:00008000
+"AddedInfoHistNum"=dword:0000000a
+"AddedInfoDataSize"=dword:00000004
+"PathOfAddedInfoFile"=hex(2):\
+      00
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\OMRON\FinsGateway\EventMemory\EM0]
+"AccessMethod"="AmShmem"
+"AddedInfoDataSize"=dword:00000004
+"AddedInfoHistNum"=dword:0000000a
+"AddedInfoTotalNum"=dword:00008000
+"EnableAccessEx"="FALSE"
+"EnableEventCondition"="TRUE"
+"NeedMapMemory"="TRUE"
+"PathOfAddedInfoFile"=hex(2):\
+      00
+"PathOfMappedFile"=hex(2):\
+      25,46,69,6e,73,53,65,72,76,65,72,25,5c,6c,6f,63,61,6c,5c,45,76,74,4d,65,6d,\
+      5c,45,4d,30,00
+"TotalNumberOfNormalConditions"=dword:00000400
+"TotalNumberOfWideConditions"=dword:00000080
+"WordSizeOfMemory"=dword:00008000
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\OMRON\FinsGateway\EventMemory\EM1]
+"AccessMethod"="AmShmem"
+"AddedInfoDataSize"=dword:00000004
+"AddedInfoHistNum"=dword:0000000a
+"AddedInfoTotalNum"=dword:00008000
+"EnableAccessEx"="FALSE"
+"EnableEventCondition"="TRUE"
+"NeedMapMemory"="TRUE"
+"PathOfAddedInfoFile"=hex(2):\
+      00
+"PathOfMappedFile"=hex(2):\
+      25,46,69,6e,73,53,65,72,76,65,72,25,5c,6c,6f,63,61,6c,5c,45,76,74,4d,65,6d,\
+      5c,45,4d,31,00
+"TotalNumberOfNormalConditions"=dword:00000400
+"TotalNumberOfWideConditions"=dword:00000080
+"WordSizeOfMemory"=dword:00008000
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\OMRON\FinsGateway\EventMemory\EM10]
+"AccessMethod"="AmShmem"
+"AddedInfoDataSize"=dword:00000004
+"AddedInfoHistNum"=dword:0000000a
+"AddedInfoTotalNum"=dword:00008000
+"EnableAccessEx"="FALSE"
+"EnableEventCondition"="TRUE"
+"NeedMapMemory"="TRUE"
+"PathOfAddedInfoFile"=hex(2):\
+      00
+"PathOfMappedFile"=hex(2):\
+      25,46,69,6e,73,53,65,72,76,65,72,25,5c,6c,6f,63,61,6c,5c,45,76,74,4d,65,6d,\
+      5c,45,4d,31,30,00
+"TotalNumberOfNormalConditions"=dword:00000400
+"TotalNumberOfWideConditions"=dword:00000080
+"WordSizeOfMemory"=dword:00008000
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\OMRON\FinsGateway\EventMemory\EM11]
+"AccessMethod"="AmShmem"
+"AddedInfoDataSize"=dword:00000004
+"AddedInfoHistNum"=dword:0000000a
+"AddedInfoTotalNum"=dword:00008000
+"EnableAccessEx"="FALSE"
+"EnableEventCondition"="TRUE"
+"NeedMapMemory"="TRUE"
+"PathOfAddedInfoFile"=hex(2):\
+      00
+"PathOfMappedFile"=hex(2):\
+      25,46,69,6e,73,53,65,72,76,65,72,25,5c,6c,6f,63,61,6c,5c,45,76,74,4d,65,6d,\
+      5c,45,4d,31,31,00
+"TotalNumberOfNormalConditions"=dword:00000400
+"TotalNumberOfWideConditions"=dword:00000080
+"WordSizeOfMemory"=dword:00008000
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\OMRON\FinsGateway\EventMemory\EM12]
+"AccessMethod"="AmShmem"
+"AddedInfoDataSize"=dword:00000004
+"AddedInfoHistNum"=dword:0000000a
+"AddedInfoTotalNum"=dword:00008000
+"EnableAccessEx"="FALSE"
+"EnableEventCondition"="TRUE"
+"NeedMapMemory"="TRUE"
+"PathOfAddedInfoFile"=hex(2):\
+      00
+"PathOfMappedFile"=hex(2):\
+      25,46,69,6e,73,53,65,72,76,65,72,25,5c,6c,6f,63,61,6c,5c,45,76,74,4d,65,6d,\
+      5c,45,4d,31,32,00
+"TotalNumberOfNormalConditions"=dword:00000400
+"TotalNumberOfWideConditions"=dword:00000080
+"WordSizeOfMemory"=dword:00008000
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\OMRON\FinsGateway\EventMemory\EM13]
+"AccessMethod"="AmShmem"
+"AddedInfoDataSize"=dword:00000004
+"AddedInfoHistNum"=dword:0000000a
+"AddedInfoTotalNum"=dword:00008000
+"EnableAccessEx"="FALSE"
+"EnableEventCondition"="TRUE"
+"NeedMapMemory"="TRUE"
+"PathOfAddedInfoFile"=hex(2):\
+      00
+"PathOfMappedFile"=hex(2):\
+      25,46,69,6e,73,53,65,72,76,65,72,25,5c,6c,6f,63,61,6c,5c,45,76,74,4d,65,6d,\
+      5c,45,4d,31,33,00
+"TotalNumberOfNormalConditions"=dword:00000400
+"TotalNumberOfWideConditions"=dword:00000080
+"WordSizeOfMemory"=dword:00008000
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\OMRON\FinsGateway\EventMemory\EM14]
+"AccessMethod"="AmShmem"
+"AddedInfoDataSize"=dword:00000004
+"AddedInfoHistNum"=dword:0000000a
+"AddedInfoTotalNum"=dword:00008000
+"EnableAccessEx"="FALSE"
+"EnableEventCondition"="TRUE"
+"NeedMapMemory"="TRUE"
+"PathOfAddedInfoFile"=hex(2):\
+      00
+"PathOfMappedFile"=hex(2):\
+      25,46,69,6e,73,53,65,72,76,65,72,25,5c,6c,6f,63,61,6c,5c,45,76,74,4d,65,6d,\
+      5c,45,4d,31,34,00
+"TotalNumberOfNormalConditions"=dword:00000400
+"TotalNumberOfWideConditions"=dword:00000080
+"WordSizeOfMemory"=dword:00008000
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\OMRON\FinsGateway\EventMemory\EM15]
+"AccessMethod"="AmShmem"
+"AddedInfoDataSize"=dword:00000004
+"AddedInfoHistNum"=dword:0000000a
+"AddedInfoTotalNum"=dword:00008000
+"EnableAccessEx"="FALSE"
+"EnableEventCondition"="TRUE"
+"NeedMapMemory"="TRUE"
+"PathOfAddedInfoFile"=hex(2):\
+      00
+"PathOfMappedFile"=hex(2):\
+      25,46,69,6e,73,53,65,72,76,65,72,25,5c,6c,6f,63,61,6c,5c,45,76,74,4d,65,6d,\
+      5c,45,4d,31,35,00
+"TotalNumberOfNormalConditions"=dword:00000400
+"TotalNumberOfWideConditions"=dword:00000080
+"WordSizeOfMemory"=dword:00008000
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\OMRON\FinsGateway\EventMemory\EM16]
+"AccessMethod"="AmShmem"
+"AddedInfoDataSize"=dword:00000004
+"AddedInfoHistNum"=dword:0000000a
+"AddedInfoTotalNum"=dword:00008000
+"EnableAccessEx"="FALSE"
+"EnableEventCondition"="TRUE"
+"NeedMapMemory"="TRUE"
+"PathOfAddedInfoFile"=hex(2):\
+      00
+"PathOfMappedFile"=hex(2):\
+      25,46,69,6e,73,53,65,72,76,65,72,25,5c,6c,6f,63,61,6c,5c,45,76,74,4d,65,6d,\
+      5c,45,4d,31,36,00
+"TotalNumberOfNormalConditions"=dword:00000400
+"TotalNumberOfWideConditions"=dword:00000080
+"WordSizeOfMemory"=dword:00008000
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\OMRON\FinsGateway\EventMemory\EM17]
+"AccessMethod"="AmShmem"
+"AddedInfoDataSize"=dword:00000004
+"AddedInfoHistNum"=dword:0000000a
+"AddedInfoTotalNum"=dword:00008000
+"EnableAccessEx"="FALSE"
+"EnableEventCondition"="TRUE"
+"NeedMapMemory"="TRUE"
+"PathOfAddedInfoFile"=hex(2):\
+      00
+"PathOfMappedFile"=hex(2):\
+      25,46,69,6e,73,53,65,72,76,65,72,25,5c,6c,6f,63,61,6c,5c,45,76,74,4d,65,6d,\
+      5c,45,4d,31,37,00
+"TotalNumberOfNormalConditions"=dword:00000400
+"TotalNumberOfWideConditions"=dword:00000080
+"WordSizeOfMemory"=dword:00008000
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\OMRON\FinsGateway\EventMemory\EM18]
+"AccessMethod"="AmShmem"
+"AddedInfoDataSize"=dword:00000004
+"AddedInfoHistNum"=dword:0000000a
+"AddedInfoTotalNum"=dword:00008000
+"EnableAccessEx"="FALSE"
+"EnableEventCondition"="TRUE"
+"NeedMapMemory"="TRUE"
+"PathOfAddedInfoFile"=hex(2):\
+      00
+"PathOfMappedFile"=hex(2):\
+      25,46,69,6e,73,53,65,72,76,65,72,25,5c,6c,6f,63,61,6c,5c,45,76,74,4d,65,6d,\
+      5c,45,4d,31,38,00
+"TotalNumberOfNormalConditions"=dword:00000400
+"TotalNumberOfWideConditions"=dword:00000080
+"WordSizeOfMemory"=dword:00008000
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\OMRON\FinsGateway\EventMemory\EM19]
+"AccessMethod"="AmShmem"
+"AddedInfoDataSize"=dword:00000004
+"AddedInfoHistNum"=dword:0000000a
+"AddedInfoTotalNum"=dword:00008000
+"EnableAccessEx"="FALSE"
+"EnableEventCondition"="TRUE"
+"NeedMapMemory"="TRUE"
+"PathOfAddedInfoFile"=hex(2):\
+      00
+"PathOfMappedFile"=hex(2):\
+      25,46,69,6e,73,53,65,72,76,65,72,25,5c,6c,6f,63,61,6c,5c,45,76,74,4d,65,6d,\
+      5c,45,4d,31,39,00
+"TotalNumberOfNormalConditions"=dword:00000400
+"TotalNumberOfWideConditions"=dword:00000080
+"WordSizeOfMemory"=dword:00008000
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\OMRON\FinsGateway\EventMemory\EM1A]
+"AccessMethod"="AmShmem"
+"AddedInfoDataSize"=dword:00000004
+"AddedInfoHistNum"=dword:0000000a
+"AddedInfoTotalNum"=dword:00008000
+"EnableAccessEx"="FALSE"
+"EnableEventCondition"="TRUE"
+"NeedMapMemory"="TRUE"
+"PathOfAddedInfoFile"=hex(2):\
+      00
+"PathOfMappedFile"=hex(2):\
+      25,46,69,6e,73,53,65,72,76,65,72,25,5c,6c,6f,63,61,6c,5c,45,76,74,4d,65,6d,\
+      5c,45,4d,31,41,00
+"TotalNumberOfNormalConditions"=dword:00000400
+"TotalNumberOfWideConditions"=dword:00000080
+"WordSizeOfMemory"=dword:00008000
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\OMRON\FinsGateway\EventMemory\EM1B]
+"AccessMethod"="AmShmem"
+"AddedInfoDataSize"=dword:00000004
+"AddedInfoHistNum"=dword:0000000a
+"AddedInfoTotalNum"=dword:00008000
+"EnableAccessEx"="FALSE"
+"EnableEventCondition"="TRUE"
+"NeedMapMemory"="TRUE"
+"PathOfAddedInfoFile"=hex(2):\
+      00
+"PathOfMappedFile"=hex(2):\
+      25,46,69,6e,73,53,65,72,76,65,72,25,5c,6c,6f,63,61,6c,5c,45,76,74,4d,65,6d,\
+      5c,45,4d,31,42,00
+"TotalNumberOfNormalConditions"=dword:00000400
+"TotalNumberOfWideConditions"=dword:00000080
+"WordSizeOfMemory"=dword:00008000
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\OMRON\FinsGateway\EventMemory\EM1C]
+"AccessMethod"="AmShmem"
+"AddedInfoDataSize"=dword:00000004
+"AddedInfoHistNum"=dword:0000000a
+"AddedInfoTotalNum"=dword:00008000
+"EnableAccessEx"="FALSE"
+"EnableEventCondition"="TRUE"
+"NeedMapMemory"="TRUE"
+"PathOfAddedInfoFile"=hex(2):\
+      00
+"PathOfMappedFile"=hex(2):\
+      25,46,69,6e,73,53,65,72,76,65,72,25,5c,6c,6f,63,61,6c,5c,45,76,74,4d,65,6d,\
+      5c,45,4d,31,43,00
+"TotalNumberOfNormalConditions"=dword:00000400
+"TotalNumberOfWideConditions"=dword:00000080
+"WordSizeOfMemory"=dword:00008000
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\OMRON\FinsGateway\EventMemory\EM1D]
+"AccessMethod"="AmShmem"
+"AddedInfoDataSize"=dword:00000004
+"AddedInfoHistNum"=dword:0000000a
+"AddedInfoTotalNum"=dword:00008000
+"EnableAccessEx"="FALSE"
+"EnableEventCondition"="TRUE"
+"NeedMapMemory"="TRUE"
+"PathOfAddedInfoFile"=hex(2):\
+      00
+"PathOfMappedFile"=hex(2):\
+      25,46,69,6e,73,53,65,72,76,65,72,25,5c,6c,6f,63,61,6c,5c,45,76,74,4d,65,6d,\
+      5c,45,4d,31,44,00
+"TotalNumberOfNormalConditions"=dword:00000400
+"TotalNumberOfWideConditions"=dword:00000080
+"WordSizeOfMemory"=dword:00008000
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\OMRON\FinsGateway\EventMemory\EM1E]
+"AccessMethod"="AmShmem"
+"AddedInfoDataSize"=dword:00000004
+"AddedInfoHistNum"=dword:0000000a
+"AddedInfoTotalNum"=dword:00008000
+"EnableAccessEx"="FALSE"
+"EnableEventCondition"="TRUE"
+"NeedMapMemory"="TRUE"
+"PathOfAddedInfoFile"=hex(2):\
+      00
+"PathOfMappedFile"=hex(2):\
+      25,46,69,6e,73,53,65,72,76,65,72,25,5c,6c,6f,63,61,6c,5c,45,76,74,4d,65,6d,\
+      5c,45,4d,31,45,00
+"TotalNumberOfNormalConditions"=dword:00000400
+"TotalNumberOfWideConditions"=dword:00000080
+"WordSizeOfMemory"=dword:00008000
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\OMRON\FinsGateway\EventMemory\EM1F]
+"AccessMethod"="AmShmem"
+"AddedInfoDataSize"=dword:00000004
+"AddedInfoHistNum"=dword:0000000a
+"AddedInfoTotalNum"=dword:00008000
+"EnableAccessEx"="FALSE"
+"EnableEventCondition"="TRUE"
+"NeedMapMemory"="TRUE"
+"PathOfAddedInfoFile"=hex(2):\
+      00
+"PathOfMappedFile"=hex(2):\
+      25,46,69,6e,73,53,65,72,76,65,72,25,5c,6c,6f,63,61,6c,5c,45,76,74,4d,65,6d,\
+      5c,45,4d,31,46,00
+"TotalNumberOfNormalConditions"=dword:00000400
+"TotalNumberOfWideConditions"=dword:00000080
+"WordSizeOfMemory"=dword:00008000
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\OMRON\FinsGateway\EventMemory\EM2]
+"AccessMethod"="AmShmem"
+"AddedInfoDataSize"=dword:00000004
+"AddedInfoHistNum"=dword:0000000a
+"AddedInfoTotalNum"=dword:00008000
+"EnableAccessEx"="FALSE"
+"EnableEventCondition"="TRUE"
+"NeedMapMemory"="TRUE"
+"PathOfAddedInfoFile"=hex(2):\
+      00
+"PathOfMappedFile"=hex(2):\
+      25,46,69,6e,73,53,65,72,76,65,72,25,5c,6c,6f,63,61,6c,5c,45,76,74,4d,65,6d,\
+      5c,45,4d,32,00
+"TotalNumberOfNormalConditions"=dword:00000400
+"TotalNumberOfWideConditions"=dword:00000080
+"WordSizeOfMemory"=dword:00008000
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\OMRON\FinsGateway\EventMemory\EM3]
+"AccessMethod"="AmShmem"
+"AddedInfoDataSize"=dword:00000004
+"AddedInfoHistNum"=dword:0000000a
+"AddedInfoTotalNum"=dword:00008000
+"EnableAccessEx"="FALSE"
+"EnableEventCondition"="TRUE"
+"NeedMapMemory"="TRUE"
+"PathOfAddedInfoFile"=hex(2):\
+      00
+"PathOfMappedFile"=hex(2):\
+      25,46,69,6e,73,53,65,72,76,65,72,25,5c,6c,6f,63,61,6c,5c,45,76,74,4d,65,6d,\
+      5c,45,4d,33,00
+"TotalNumberOfNormalConditions"=dword:00000400
+"TotalNumberOfWideConditions"=dword:00000080
+"WordSizeOfMemory"=dword:00008000
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\OMRON\FinsGateway\EventMemory\EM4]
+"AccessMethod"="AmShmem"
+"AddedInfoDataSize"=dword:00000004
+"AddedInfoHistNum"=dword:0000000a
+"AddedInfoTotalNum"=dword:00008000
+"EnableAccessEx"="FALSE"
+"EnableEventCondition"="TRUE"
+"NeedMapMemory"="TRUE"
+"PathOfAddedInfoFile"=hex(2):\
+      00
+"PathOfMappedFile"=hex(2):\
+      25,46,69,6e,73,53,65,72,76,65,72,25,5c,6c,6f,63,61,6c,5c,45,76,74,4d,65,6d,\
+      5c,45,4d,34,00
+"TotalNumberOfNormalConditions"=dword:00000400
+"TotalNumberOfWideConditions"=dword:00000080
+"WordSizeOfMemory"=dword:00008000
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\OMRON\FinsGateway\EventMemory\EM5]
+"AccessMethod"="AmShmem"
+"AddedInfoDataSize"=dword:00000004
+"AddedInfoHistNum"=dword:0000000a
+"AddedInfoTotalNum"=dword:00008000
+"EnableAccessEx"="FALSE"
+"EnableEventCondition"="TRUE"
+"NeedMapMemory"="TRUE"
+"PathOfAddedInfoFile"=hex(2):\
+      00
+"PathOfMappedFile"=hex(2):\
+      25,46,69,6e,73,53,65,72,76,65,72,25,5c,6c,6f,63,61,6c,5c,45,76,74,4d,65,6d,\
+      5c,45,4d,35,00
+"TotalNumberOfNormalConditions"=dword:00000400
+"TotalNumberOfWideConditions"=dword:00000080
+"WordSizeOfMemory"=dword:00008000
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\OMRON\FinsGateway\EventMemory\EM6]
+"AccessMethod"="AmShmem"
+"AddedInfoDataSize"=dword:00000004
+"AddedInfoHistNum"=dword:0000000a
+"AddedInfoTotalNum"=dword:00008000
+"EnableAccessEx"="FALSE"
+"EnableEventCondition"="TRUE"
+"NeedMapMemory"="TRUE"
+"PathOfAddedInfoFile"=hex(2):\
+      00
+"PathOfMappedFile"=hex(2):\
+      25,46,69,6e,73,53,65,72,76,65,72,25,5c,6c,6f,63,61,6c,5c,45,76,74,4d,65,6d,\
+      5c,45,4d,36,00
+"TotalNumberOfNormalConditions"=dword:00000400
+"TotalNumberOfWideConditions"=dword:00000080
+"WordSizeOfMemory"=dword:00008000
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\OMRON\FinsGateway\EventMemory\EM7]
+"AccessMethod"="AmShmem"
+"AddedInfoDataSize"=dword:00000004
+"AddedInfoHistNum"=dword:0000000a
+"AddedInfoTotalNum"=dword:00008000
+"EnableAccessEx"="FALSE"
+"EnableEventCondition"="TRUE"
+"NeedMapMemory"="TRUE"
+"PathOfAddedInfoFile"=hex(2):\
+      00
+"PathOfMappedFile"=hex(2):\
+      25,46,69,6e,73,53,65,72,76,65,72,25,5c,6c,6f,63,61,6c,5c,45,76,74,4d,65,6d,\
+      5c,45,4d,37,00
+"TotalNumberOfNormalConditions"=dword:00000400
+"TotalNumberOfWideConditions"=dword:00000080
+"WordSizeOfMemory"=dword:00008000
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\OMRON\FinsGateway\EventMemory\EM8]
+"AccessMethod"="AmShmem"
+"AddedInfoDataSize"=dword:00000004
+"AddedInfoHistNum"=dword:0000000a
+"AddedInfoTotalNum"=dword:00008000
+"EnableAccessEx"="FALSE"
+"EnableEventCondition"="TRUE"
+"NeedMapMemory"="TRUE"
+"PathOfAddedInfoFile"=hex(2):\
+      00
+"PathOfMappedFile"=hex(2):\
+      25,46,69,6e,73,53,65,72,76,65,72,25,5c,6c,6f,63,61,6c,5c,45,76,74,4d,65,6d,\
+      5c,45,4d,38,00
+"TotalNumberOfNormalConditions"=dword:00000400
+"TotalNumberOfWideConditions"=dword:00000080
+"WordSizeOfMemory"=dword:00008000
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\OMRON\FinsGateway\EventMemory\EM9]
+"AccessMethod"="AmShmem"
+"AddedInfoDataSize"=dword:00000004
+"AddedInfoHistNum"=dword:0000000a
+"AddedInfoTotalNum"=dword:00008000
+"EnableAccessEx"="FALSE"
+"EnableEventCondition"="TRUE"
+"NeedMapMemory"="TRUE"
+"PathOfAddedInfoFile"=hex(2):\
+      00
+"PathOfMappedFile"=hex(2):\
+      25,46,69,6e,73,53,65,72,76,65,72,25,5c,6c,6f,63,61,6c,5c,45,76,74,4d,65,6d,\
+      5c,45,4d,39,00
+"TotalNumberOfNormalConditions"=dword:00000400
+"TotalNumberOfWideConditions"=dword:00000080
+"WordSizeOfMemory"=dword:00008000
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\OMRON\FinsGateway\EventMemory\EMA]
+"AccessMethod"="AmShmem"
+"AddedInfoDataSize"=dword:00000004
+"AddedInfoHistNum"=dword:0000000a
+"AddedInfoTotalNum"=dword:00008000
+"EnableAccessEx"="FALSE"
+"EnableEventCondition"="TRUE"
+"NeedMapMemory"="TRUE"
+"PathOfAddedInfoFile"=hex(2):\
+      00
+"PathOfMappedFile"=hex(2):\
+      25,46,69,6e,73,53,65,72,76,65,72,25,5c,6c,6f,63,61,6c,5c,45,76,74,4d,65,6d,\
+      5c,45,4d,41,00
+"TotalNumberOfNormalConditions"=dword:00000400
+"TotalNumberOfWideConditions"=dword:00000080
+"WordSizeOfMemory"=dword:00008000
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\OMRON\FinsGateway\EventMemory\EMB]
+"AccessMethod"="AmShmem"
+"AddedInfoDataSize"=dword:00000004
+"AddedInfoHistNum"=dword:0000000a
+"AddedInfoTotalNum"=dword:00008000
+"EnableAccessEx"="FALSE"
+"EnableEventCondition"="TRUE"
+"NeedMapMemory"="TRUE"
+"PathOfAddedInfoFile"=hex(2):\
+      00
+"PathOfMappedFile"=hex(2):\
+      25,46,69,6e,73,53,65,72,76,65,72,25,5c,6c,6f,63,61,6c,5c,45,76,74,4d,65,6d,\
+      5c,45,4d,42,00
+"TotalNumberOfNormalConditions"=dword:00000400
+"TotalNumberOfWideConditions"=dword:00000080
+"WordSizeOfMemory"=dword:00008000
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\OMRON\FinsGateway\EventMemory\EMC]
+"AccessMethod"="AmShmem"
+"AddedInfoDataSize"=dword:00000004
+"AddedInfoHistNum"=dword:0000000a
+"AddedInfoTotalNum"=dword:00008000
+"EnableAccessEx"="FALSE"
+"EnableEventCondition"="TRUE"
+"NeedMapMemory"="TRUE"
+"PathOfAddedInfoFile"=hex(2):\
+      00
+"PathOfMappedFile"=hex(2):\
+      25,46,69,6e,73,53,65,72,76,65,72,25,5c,6c,6f,63,61,6c,5c,45,76,74,4d,65,6d,\
+      5c,45,4d,43,00
+"TotalNumberOfNormalConditions"=dword:00000400
+"TotalNumberOfWideConditions"=dword:00000080
+"WordSizeOfMemory"=dword:00008000
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\OMRON\FinsGateway\EventMemory\EMD]
+"AccessMethod"="AmShmem"
+"AddedInfoDataSize"=dword:00000004
+"AddedInfoHistNum"=dword:0000000a
+"AddedInfoTotalNum"=dword:00008000
+"EnableAccessEx"="FALSE"
+"EnableEventCondition"="TRUE"
+"NeedMapMemory"="TRUE"
+"PathOfAddedInfoFile"=hex(2):\
+      00
+"PathOfMappedFile"=hex(2):\
+      25,46,69,6e,73,53,65,72,76,65,72,25,5c,6c,6f,63,61,6c,5c,45,76,74,4d,65,6d,\
+      5c,45,4d,44,00
+"TotalNumberOfNormalConditions"=dword:00000400
+"TotalNumberOfWideConditions"=dword:00000080
+"WordSizeOfMemory"=dword:00008000
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\OMRON\FinsGateway\EventMemory\EME]
+"AccessMethod"="AmShmem"
+"AddedInfoDataSize"=dword:00000004
+"AddedInfoHistNum"=dword:0000000a
+"AddedInfoTotalNum"=dword:00008000
+"EnableAccessEx"="FALSE"
+"EnableEventCondition"="TRUE"
+"NeedMapMemory"="TRUE"
+"PathOfAddedInfoFile"=hex(2):\
+      00
+"PathOfMappedFile"=hex(2):\
+      25,46,69,6e,73,53,65,72,76,65,72,25,5c,6c,6f,63,61,6c,5c,45,76,74,4d,65,6d,\
+      5c,45,4d,45,00
+"TotalNumberOfNormalConditions"=dword:00000400
+"TotalNumberOfWideConditions"=dword:00000080
+"WordSizeOfMemory"=dword:00008000
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\OMRON\FinsGateway\EventMemory\EMF]
+"AccessMethod"="AmShmem"
+"AddedInfoDataSize"=dword:00000004
+"AddedInfoHistNum"=dword:0000000a
+"AddedInfoTotalNum"=dword:00008000
+"EnableAccessEx"="FALSE"
+"EnableEventCondition"="TRUE"
+"NeedMapMemory"="TRUE"
+"PathOfAddedInfoFile"=hex(2):\
+      00
+"PathOfMappedFile"=hex(2):\
+      25,46,69,6e,73,53,65,72,76,65,72,25,5c,6c,6f,63,61,6c,5c,45,76,74,4d,65,6d,\
+      5c,45,4d,46,00
+"TotalNumberOfNormalConditions"=dword:00000400
+"TotalNumberOfWideConditions"=dword:00000080
+"WordSizeOfMemory"=dword:00008000
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\OMRON\FinsGateway\EventMemory\HR]
+"AccessMethod"="AmShmem"
+"AddedInfoDataSize"=dword:00000004
+"AddedInfoHistNum"=dword:0000000a
+"AddedInfoTotalNum"=dword:00008000
+"EnableAccessEx"="FALSE"
+"EnableEventCondition"="TRUE"
+"NeedMapMemory"="TRUE"
+"PathOfAddedInfoFile"=hex(2):\
+      00
+"PathOfMappedFile"=hex(2):\
+      25,46,69,6e,73,53,65,72,76,65,72,25,5c,6c,6f,63,61,6c,5c,45,76,74,4d,65,6d,\
+      5c,48,52,00
+"TotalNumberOfNormalConditions"=dword:00000400
+"TotalNumberOfWideConditions"=dword:00000080
+"WordSizeOfMemory"=dword:00008000
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\OMRON\FinsGateway\EventMemory\REMOTE_MEM]
+"PathOfMappedFile"=hex(2):\
+      00
+"TotalNumberOfNormalConditions"=dword:00000000
+"TotalNumberOfWideConditions"=dword:00000000
+"WordSizeOfMemory"=dword:00008000
+"EnableEventCondition"="FALSE"
+"NeedMapMemory"="TRUE"
+"AccessMethod"="AmFinsRemote"
+"DeviceName"="PLC1"
+"FinsAddress"="0.0.0"
+"VariableType"="02"
+"VariableOffset"="0"
+"WordAccess"="FALSE"
+"TimeoutSecond"="1000"
+"RetryCount"="0"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\OMRON\FinsGateway\EventMemory\WR]
+"AccessMethod"="AmShmem"
+"AddedInfoDataSize"=dword:00000004
+"AddedInfoHistNum"=dword:0000000a
+"AddedInfoTotalNum"=dword:00008000
+"EnableAccessEx"="FALSE"
+"EnableEventCondition"="TRUE"
+"NeedMapMemory"="TRUE"
+"PathOfAddedInfoFile"=hex(2):\
+      00
+"PathOfMappedFile"=hex(2):\
+      25,46,69,6e,73,53,65,72,76,65,72,25,5c,6c,6f,63,61,6c,5c,45,76,74,4d,65,6d,\
+      5c,57,52,00
+"TotalNumberOfNormalConditions"=dword:00000400
+"TotalNumberOfWideConditions"=dword:00000080
+"WordSizeOfMemory"=dword:00008000
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\OMRON\FinsGateway\EventMemory\_SYSTEM_VAR0]
+"AccessMethod"="AmShmem"
+"AddedInfoDataSize"=dword:00000000
+"AddedInfoHistNum"=dword:00000000
+"AddedInfoTotalNum"=dword:00000000
+"EnableAccessEx"="FALSE"
+"EnableEventCondition"="TRUE"
+"NeedMapMemory"="TRUE"
+"PathOfAddedInfoFile"=hex(2):\
+      00
+"PathOfMappedFile"=hex(2):\
+      25,46,69,6e,73,53,65,72,76,65,72,25,5c,6c,6f,63,61,6c,5c,45,76,74,4d,65,6d,\
+      5c,5f,53,59,53,54,45,4d,5f,56,41,52,30,00
+"TotalNumberOfNormalConditions"=dword:00001000
+"TotalNumberOfWideConditions"=dword:00001000
+"WordSizeOfMemory"=dword:0000ffff
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\OMRON\FinsGateway\EventMemory\_SYSTEM_VAR1]
+"AccessMethod"="AmShmem"
+"EnableAccessEx"="FALSE"
+"EnableEventCondition"="TRUE"
+"NeedMapMemory"="TRUE"
+"PathOfMappedFile"=hex(2):\
+      25,46,69,6e,73,53,65,72,76,65,72,25,5c,6c,6f,63,61,6c,5c,45,76,74,4d,65,6d,\
+      5c,5f,53,59,53,54,45,4d,5f,56,41,52,31,00
+"TotalNumberOfNormalConditions"=dword:00001000
+"TotalNumberOfWideConditions"=dword:00001000
+"WordSizeOfMemory"=dword:0000ffff
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\OMRON\FinsGateway\EventMemory\_SYSTEM_VAR2]
+"AccessMethod"="AmShmem"
+"EnableAccessEx"="FALSE"
+"EnableEventCondition"="TRUE"
+"NeedMapMemory"="TRUE"
+"PathOfMappedFile"=hex(2):\
+      25,46,69,6e,73,53,65,72,76,65,72,25,5c,6c,6f,63,61,6c,5c,45,76,74,4d,65,6d,\
+      5c,5f,53,59,53,54,45,4d,5f,56,41,52,32,00
+"TotalNumberOfNormalConditions"=dword:00001000
+"TotalNumberOfWideConditions"=dword:00001000
+"WordSizeOfMemory"=dword:0000ffff
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\OMRON\FinsGateway\EventMemory\_SYSTEM_VAR3]
+"AccessMethod"="AmShmem"
+"EnableAccessEx"="FALSE"
+"EnableEventCondition"="TRUE"
+"NeedMapMemory"="TRUE"
+"PathOfMappedFile"=hex(2):\
+      25,46,69,6e,73,53,65,72,76,65,72,25,5c,6c,6f,63,61,6c,5c,45,76,74,4d,65,6d,\
+      5c,5f,53,59,53,54,45,4d,5f,56,41,52,33,00
+"TotalNumberOfNormalConditions"=dword:00001000
+"TotalNumberOfWideConditions"=dword:00001000
+"WordSizeOfMemory"=dword:0000ffff
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\OMRON\FinsGateway\EventMemory\_SYSTEM_VAR4]
+"AccessMethod"="AmShmem"
+"EnableAccessEx"="FALSE"
+"EnableEventCondition"="TRUE"
+"NeedMapMemory"="TRUE"
+"PathOfMappedFile"=hex(2):\
+      25,46,69,6e,73,53,65,72,76,65,72,25,5c,6c,6f,63,61,6c,5c,45,76,74,4d,65,6d,\
+      5c,5f,53,59,53,54,45,4d,5f,56,41,52,34,00
+"TotalNumberOfNormalConditions"=dword:00001000
+"TotalNumberOfWideConditions"=dword:00001000
+"WordSizeOfMemory"=dword:0000ffff
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\OMRON\FinsGateway\EventMemory\_SYSTEM_VAR5]
+"AccessMethod"="AmShmem"
+"EnableAccessEx"="FALSE"
+"EnableEventCondition"="TRUE"
+"NeedMapMemory"="TRUE"
+"PathOfMappedFile"=hex(2):\
+      25,46,69,6e,73,53,65,72,76,65,72,25,5c,6c,6f,63,61,6c,5c,45,76,74,4d,65,6d,\
+      5c,5f,53,59,53,54,45,4d,5f,56,41,52,35,00
+"TotalNumberOfNormalConditions"=dword:00001000
+"TotalNumberOfWideConditions"=dword:00001000
+"WordSizeOfMemory"=dword:0000ffff
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\OMRON\FinsGateway\EventMemory\_SYSTEM_VAR6]
+"AccessMethod"="AmShmem"
+"EnableAccessEx"="FALSE"
+"EnableEventCondition"="TRUE"
+"NeedMapMemory"="TRUE"
+"PathOfMappedFile"=hex(2):\
+      25,46,69,6e,73,53,65,72,76,65,72,25,5c,6c,6f,63,61,6c,5c,45,76,74,4d,65,6d,\
+      5c,5f,53,59,53,54,45,4d,5f,56,41,52,36,00
+"TotalNumberOfNormalConditions"=dword:00001000
+"TotalNumberOfWideConditions"=dword:00001000
+"WordSizeOfMemory"=dword:0000ffff
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\OMRON\FinsGateway\EventMemory\_SYSTEM_VAR7]
+"AccessMethod"="AmShmem"
+"EnableAccessEx"="FALSE"
+"EnableEventCondition"="TRUE"
+"NeedMapMemory"="TRUE"
+"PathOfMappedFile"=hex(2):\
+      25,46,69,6e,73,53,65,72,76,65,72,25,5c,6c,6f,63,61,6c,5c,45,76,74,4d,65,6d,\
+      5c,5f,53,59,53,54,45,4d,5f,56,41,52,37,00
+"TotalNumberOfNormalConditions"=dword:00001000
+"TotalNumberOfWideConditions"=dword:00001000
+"WordSizeOfMemory"=dword:0000ffff
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\OMRON\FinsGateway\FgwSocketProxy]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\OMRON\FinsGateway\FgwSocketProxy\Parameters]
+"MaxClientNumber"=dword:00000100
+"TcpPortNumber"="9700"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\OMRON\FinsGateway\NameSpace]
+"PORT"=dword:000025e5
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\OMRON\FinsGateway\NameSpace\Client]
+"TimeOut"=dword:00002710
+"NameSpaceHost"=""
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\OMRON\FinsGateway\NameSpace\Server]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\OMRON\FinsGateway\NameSpace\Server\NameSpace]
+"SymbolInfo"=hex(2):\
+      25,46,69,6e,73,53,65,72,76,65,72,25,5c,6c,6f,63,61,6c,5c,4e,61,6d,65,53,70,\
+      61,63,65,5c,53,79,6d,62,6f,6c,49,6e,66,6f,00
+"FinsGateway"=hex(2):\
+      25,46,69,6e,73,53,65,72,76,65,72,25,5c,6c,6f,63,61,6c,5c,4e,61,6d,65,53,70,\
+      61,63,65,5c,46,69,6e,73,47,61,74,65,77,61,79,00
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\OMRON\FinsGateway\NetworkProvider]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\OMRON\FinsGateway\NetworkProvider\Ethernet]
+"Version"="5.10"
+"ReleaseDate"="6/20/04"
+"ProductType"=dword:00000002
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\OMRON\FinsGateway\NetworkProvider\Serial]
+"Version"="7.00"
+"ReleaseDate"="1/8/08"
+"ProductType"=dword:00000002
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\OMRON\FinsGateway\NetworkProvider\Serial\Lines]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\OMRON\FinsGateway\NetworkProvider\Serial\Lines\COM1]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\OMRON\FinsGateway\NetworkProvider\Serial\Lines\COM1\Nodes]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\OMRON\FinsGateway\NetworkProvider\Serial\Lines\COM1\Nodes\B]
+"Controller"="CJ1-CPU12/13/22/23"
+"Proto"="SYSWAY"
+"ProtoSpecData"=hex:\
+      00
+"ProtoSpecSize"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\OMRON\FinsGateway\NetworkProvider\Serial\Lines\COM1\Parameters]
+"BaudRate"=dword:00009600
+"DataLength"=dword:00000007
+"FinsLogFile"=hex(2):\
+      00
+"FinsLogRecord"=dword:00000400
+"FinsMessageSize"=dword:000003e8
+"Interval"=dword:00000000
+"NodeAddress"=dword:0000001f
+"Parity"=dword:00000002
+"PortName"=hex(2):\
+      43,4f,4d,31,00
+"Retry"=dword:00000000
+"StopBit"=dword:00000002
+"TimeOut"=dword:00001388
+"UnitAddress"=dword:00000018
+"ExclusiveProtocol"=""
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\OMRON\FinsGateway\NetworkProvider\Serial\Lines\COM2]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\OMRON\FinsGateway\NetworkProvider\Serial\Lines\COM2\Nodes]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\OMRON\FinsGateway\NetworkProvider\Serial\Lines\COM2\Nodes\F0]
+"Controller"="CS1H-CPU66/44"
+"Proto"="SYSWAY-CV"
+"ProtoSpecData"=hex:\
+      00
+"ProtoSpecSize"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\OMRON\FinsGateway\NetworkProvider\Serial\Lines\COM2\Parameters]
+"BaudRate"=dword:00002580
+"DataLength"=dword:00000007
+"FinsLogFile"=hex(2):\
+      00
+"FinsLogRecord"=dword:00000400
+"FinsMessageSize"=dword:000003e8
+"Interval"=dword:00000000
+"NodeAddress"=dword:0000001f
+"Parity"=dword:00000002
+"PortName"="COM2"
+"Retry"=dword:00000000
+"StopBit"=dword:00000002
+"TimeOut"=dword:00001388
+"UnitAddress"=dword:00000019
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\OMRON\FinsGateway\NetworkProvider\Serial\Lines\COM3]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\OMRON\FinsGateway\NetworkProvider\Serial\Lines\COM3\Nodes]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\OMRON\FinsGateway\NetworkProvider\Serial\Lines\COM3\Nodes\C]
+"Controller"="CJ1-CPU12/13/22/23"
+"Proto"="SYSWAY"
+"ProtoSpecData"=hex:\
+      00
+"ProtoSpecSize"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\OMRON\FinsGateway\NetworkProvider\Serial\Lines\COM3\Parameters]
+"BaudRate"=dword:00009600
+"DataLength"=dword:00000007
+"FinsLogFile"=hex(2):\
+      00
+"FinsLogRecord"=dword:00000400
+"FinsMessageSize"=dword:000003e8
+"Interval"=dword:00000000
+"NodeAddress"=dword:0000001f
+"Parity"=dword:00000002
+"PortName"=hex(2):\
+      43,4f,4d,33,00
+"Retry"=dword:00000000
+"StopBit"=dword:00000002
+"TimeOut"=dword:00001388
+"UnitAddress"=dword:0000001a
+"ExclusiveProtocol"=""
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\OMRON\FinsGateway\NetworkProvider\Serial\Lines\COM4]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\OMRON\FinsGateway\NetworkProvider\Serial\Lines\COM4\Nodes]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\OMRON\FinsGateway\NetworkProvider\Serial\Lines\COM4\Nodes\C]
+"Controller"="CJ1-CPU12/13/22/23"
+"Proto"="SYSWAY"
+"ProtoSpecData"=hex:\
+      00
+"ProtoSpecSize"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\OMRON\FinsGateway\NetworkProvider\Serial\Lines\COM4\Parameters]
+"BaudRate"=dword:00009600
+"DataLength"=dword:00000007
+"FinsLogFile"=hex(2):\
+      00
+"FinsLogRecord"=dword:00000400
+"FinsMessageSize"=dword:000003e8
+"Interval"=dword:00000000
+"NodeAddress"=dword:0000001f
+"Parity"=dword:00000002
+"PortName"=hex(2):\
+      43,4f,4d,34,00
+"Retry"=dword:00000000
+"StopBit"=dword:00000002
+"TimeOut"=dword:00001388
+"UnitAddress"=dword:0000001b
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\OMRON\FinsGateway\NetworkProvider\Serial\Lines\USB0]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\OMRON\FinsGateway\NetworkProvider\Serial\Lines\USB0\Parameters]
+"BaudRate"=dword:00002580
+"DataLength"=dword:00000007
+"FinsLogFile"=hex(2):\
+      00
+"FinsLogRecord"=dword:00000400
+"FinsMessageSize"=dword:000003e8
+"Interval"=dword:00000000
+"NodeAddress"=dword:0000001f
+"Parity"=dword:00000002
+"PortName"="OMR0"
+"Retry"=dword:00000000
+"StopBit"=dword:00000002
+"TimeOut"=dword:00001388
+"UnitAddress"=dword:0000001c
+"ExclusiveProtocol"="ToolBus(USB)"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\OMRON\FinsGateway\NetworkProvider\Serial\Proto]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\OMRON\FinsGateway\NetworkProvider\Serial\Proto\CompoWay]
+"ProtoDLL"=hex(2):\
+      25,46,69,6e,73,53,65,72,76,65,72,25,5c,62,69,6e,5c,43,6f,6d,70,6f,46,2e,64,\
+      6c,6c,00
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\OMRON\FinsGateway\NetworkProvider\Serial\Proto\SYSWAY]
+"ProtoDLL"=hex(2):\
+      25,46,69,6e,73,53,65,72,76,65,72,25,5c,62,69,6e,5c,53,79,73,77,61,79,50,6c,\
+      63,2e,64,6c,6c,00
+"ConvertFile"=hex(2):\
+      25,46,69,6e,73,53,65,72,76,65,72,25,5c,6c,6f,63,61,6c,5c,53,79,73,77,61,79,\
+      43,6f,6e,76,65,72,74,2e,64,61,74,00
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\OMRON\FinsGateway\NetworkProvider\Serial\Proto\SYSWAY-CV]
+"ProtoDLL"=hex(2):\
+      25,46,69,6e,73,53,65,72,76,65,72,25,5c,62,69,6e,5c,53,79,73,77,61,79,46,41,\
+      2e,64,6c,6c,00
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\OMRON\FinsGateway\NetworkProvider\Serial\Proto\ToolBus(USB)]
+"Exclusive"=dword:00000001
+"ProtoDll"=hex(2):\
+      25,46,69,6e,73,53,65,72,76,65,72,25,5c,62,69,6e,5c,54,6f,6f,6c,42,75,73,43,\
+      50,31,2e,64,6c,6c,00
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\OMRON\FinsGateway\NetworkProvider\Serial\Proto\ToolBusC]
+"ConvertFile"=hex(2):\
+      25,46,69,6e,73,53,65,72,76,65,72,25,5c,6c,6f,63,61,6c,5c,54,6f,6f,6c,42,75,\
+      73,43,6f,6e,76,65,72,74,2e,64,61,74,00
+"Exclusive"=dword:00000001
+"ProtoDll"=hex(2):\
+      25,46,69,6e,73,53,65,72,76,65,72,25,5c,62,69,6e,5c,54,6f,6f,6c,62,75,73,43,\
+      2e,64,6c,6c,00
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\OMRON\FinsGateway\NetworkProvider\Serial\Proto\ToolBusCS/CJ]
+"Exclusive"=dword:00000001
+"ProtoDll"=hex(2):\
+      25,46,69,6e,73,53,65,72,76,65,72,25,5c,62,69,6e,5c,54,6f,6f,6c,62,75,73,43,\
+      53,31,2e,64,6c,6c,00
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\OMRON\FinsGateway\NetworkProvider\Serial\Proto\ToolBusCV]
+"Exclusive"=dword:00000001
+"ProtoDll"=hex(2):\
+      25,46,69,6e,73,53,65,72,76,65,72,25,5c,62,69,6e,5c,54,6f,6f,6c,62,75,73,43,\
+      56,2e,64,6c,6c,00
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\OMRON\FinsGateway\NetworkProvider\Serial\Unit]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\OMRON\FinsGateway\NetworkProvider\Serial\Unit\SerialLineUnit]
+"EXE"=hex(2):\
+      25,46,69,6e,73,53,65,72,76,65,72,25,5c,62,69,6e,5c,53,65,72,69,55,6e,69,74,\
+      2e,65,78,65,00
+"Lines"="COM1,COM3"
+"TapiCallDll"=hex(2):\
+      25,46,69,6e,73,53,65,72,76,65,72,25,5c,62,69,6e,5c,74,61,70,69,63,61,6c,6c,\
+      2e,64,6c,6c,00
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\OMRON\FinsGateway\ServiceProvider]
+"OwnNetworks"="(01,18)(02,1A)"
+"RelayNetworks"=""
+"TotalBuffers"=dword:00000100
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\OMRON\FinsGateway\UdmLDH]
+"CIPCore"=hex(2):\
+      43,3a,5c,50,72,6f,67,72,61,6d,20,46,69,6c,65,73,5c,4f,4d,52,4f,4e,5c,53,59,\
+      53,4d,41,43,20,47,61,74,65,77,61,79,5c,62,69,6e,5c,43,69,70,43,6f,72,65,4c,\
+      44,48,2e,64,6c,6c,00
+"CIPMessage"=hex(2):\
+      43,3a,5c,50,72,6f,67,72,61,6d,20,46,69,6c,65,73,5c,4f,4d,52,4f,4e,5c,53,59,\
+      53,4d,41,43,20,47,61,74,65,77,61,79,5c,62,69,6e,5c,43,69,70,41,70,69,4c,44,\
+      48,2e,64,6c,6c,00
+"ETN_UNIT"=hex(2):\
+      25,46,69,6e,73,53,65,72,76,65,72,25,5c,62,69,6e,5c,45,74,6e,55,6e,69,74,4c,\
+      44,48,2e,64,6c,6c,00
+"FinsApi"=hex(2):\
+      25,46,69,6e,73,53,65,72,76,65,72,25,5c,62,69,6e,5c,46,69,6e,73,4c,44,48,2e,\
+      64,6c,6c,00
+"EmEvent"=hex(2):\
+      25,46,69,6e,73,53,65,72,76,65,72,25,5c,62,69,6e,5c,45,6d,45,76,65,6e,74,4c,\
+      44,48,2e,64,6c,6c,00
+"EventLog"=hex(2):\
+      25,46,69,6e,73,53,65,72,76,65,72,25,5c,62,69,6e,5c,45,76,65,6e,74,4c,6f,67,\
+      4c,44,48,2e,64,6c,6c,00
+"NameSpace"=hex(2):\
+      25,46,69,6e,73,53,65,72,76,65,72,25,5c,62,69,6e,5c,4e,61,6d,65,53,70,61,63,\
+      65,4c,44,48,2e,64,6c,6c,00
+"SerialUnit"=hex(2):\
+      25,46,69,6e,73,53,65,72,76,65,72,25,5c,62,69,6e,5c,53,65,72,69,61,6c,55,6e,\
+      69,74,4c,44,48,2e,64,6c,6c,00
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\CPU_UNIT]
+"Type"=dword:00000110
+"Start"=dword:00000002
+"ErrorControl"=dword:00000001
+"ImagePath"=hex(2):\
+      25,46,69,6e,73,53,65,72,76,65,72,25,5c,62,69,6e,5c,43,70,75,55,6e,69,74,2e,\
+      65,78,65,00
+"DisplayName"="CPU_UNIT"
+"ObjectName"="LocalSystem"
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\ETN_UNIT]
+"Type"=dword:00000110
+"Start"=dword:00000003
+"ErrorControl"=dword:00000001
+"ImagePath"=hex(2):\
+      25,46,69,6e,73,53,65,72,76,65,72,25,5c,62,69,6e,5c,45,74,68,65,72,6e,65,74,\
+      55,6e,69,74,2e,65,78,65,00
+"DisplayName"="ETN_UNIT"
+"ObjectName"="LocalSystem"
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\ETN_UNIT\Parameters]
+"EtnUnitNo"="17"
+"EtnNodeNo"="100"
+"IpConvMode"="auto"
+"IpTable"=""
+"UdpServiceName"="fins"
+"UdpPortNumber"="9600"
+"EtnErrLogMAX"="128"
+"EtnAutoNodeSet"="TRUE"
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\ETN_UNIT\Parameters\Duplex]
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\FgwSocketProxy]
+"Type"=dword:00000110
+"Start"=dword:00000003
+"ErrorControl"=dword:00000001
+"ImagePath"=hex(2):\
+      25,46,69,6e,73,53,65,72,76,65,72,25,5c,62,69,6e,5c,46,67,77,53,6f,63,6b,65,\
+      74,50,72,6f,78,79,2e,65,78,65,00
+"DisplayName"="FgwSocketProxy"
+"ObjectName"="LocalSystem"
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\MapAgent]
+"Type"=dword:00000110
+"Start"=dword:00000002
+"ErrorControl"=dword:00000001
+"ImagePath"=hex(2):\
+      25,46,69,6e,73,53,65,72,76,65,72,25,5c,62,69,6e,5c,4d,61,70,41,67,65,6e,74,\
+      2e,65,78,65,00
+"DisplayName"="MapAgent"
+"ObjectName"="LocalSystem"
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\NameSpaceServer]
+"Type"=dword:00000110
+"Start"=dword:00000002
+"ErrorControl"=dword:00000001
+"ImagePath"=hex(2):\
+      25,46,69,6e,73,53,65,72,76,65,72,25,5c,62,69,6e,5c,4e,73,53,65,72,76,65,72,\
+      2e,65,78,65,00
+"DisplayName"="NameSpaceServer"
+"ObjectName"="LocalSystem"

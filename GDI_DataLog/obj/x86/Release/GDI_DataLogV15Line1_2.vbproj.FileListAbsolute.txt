@@ -1,0 +1,15 @@
+D:\VB2010\GDI_DataLogV1.5 Line1&2\GDI_DataLog\bin\Release\GDI_DataLog.exe.config
+D:\VB2010\GDI_DataLogV1.5 Line1&2\GDI_DataLog\bin\Release\GDI_DataLog.exe
+D:\VB2010\GDI_DataLogV1.5 Line1&2\GDI_DataLog\bin\Release\GDI_DataLog.pdb
+D:\VB2010\GDI_DataLogV1.5 Line1&2\GDI_DataLog\bin\Release\GDI_DataLog.xml
+D:\VB2010\GDI_DataLogV1.5 Line1&2\GDI_DataLog\obj\x86\Release\ResolveAssemblyReference.cache
+D:\VB2010\GDI_DataLogV1.5 Line1&2\GDI_DataLog\obj\x86\Release\WindowsApplication1.Dialog1.resources
+D:\VB2010\GDI_DataLogV1.5 Line1&2\GDI_DataLog\obj\x86\Release\WindowsApplication1.Form1.resources
+D:\VB2010\GDI_DataLogV1.5 Line1&2\GDI_DataLog\obj\x86\Release\WindowsApplication1.Form2.resources
+D:\VB2010\GDI_DataLogV1.5 Line1&2\GDI_DataLog\obj\x86\Release\WindowsApplication1.Resources.resources
+D:\VB2010\GDI_DataLogV1.5 Line1&2\GDI_DataLog\obj\x86\Release\GenerateResource.read.1.tlog
+D:\VB2010\GDI_DataLogV1.5 Line1&2\GDI_DataLog\obj\x86\Release\GenerateResource.write.1.tlog
+D:\VB2010\GDI_DataLogV1.5 Line1&2\GDI_DataLog\obj\x86\Release\GDI_DataLog.exe.licenses
+D:\VB2010\GDI_DataLogV1.5 Line1&2\GDI_DataLog\obj\x86\Release\GDI_DataLog.exe
+D:\VB2010\GDI_DataLogV1.5 Line1&2\GDI_DataLog\obj\x86\Release\GDI_DataLog.xml
+D:\VB2010\GDI_DataLogV1.5 Line1&2\GDI_DataLog\obj\x86\Release\GDI_DataLog.pdb
